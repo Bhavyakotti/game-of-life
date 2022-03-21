@@ -30,7 +30,7 @@ pipeline
                         steps
                         {
                         git 'https://github.com/Bhavyakotti/game-of-life.git'    
-                        sh 'mvn package'
+                        bat 'mvn package'
                         }
                     }
                 
